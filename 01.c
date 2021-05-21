@@ -5,5 +5,5 @@ int length (LInt l){
         l=l->prox;
         count++;
     }    
-    return i;
+    return count;
 }
