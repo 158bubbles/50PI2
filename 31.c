@@ -3,7 +3,7 @@ void acrescenta(int x, LInt *head){
     LInt current = *head;
     LInt novo = newLInt(x, NULL);  //temos de criar este nodo com o x p o acrescentar
     
-    if(*head == NULL){
+    if(*head == NULL){     //se nao tiver nada ainda da parte esq da arvore
         *head = novo;
         return;
     }
@@ -12,7 +12,7 @@ void acrescenta(int x, LInt *head){
         current = current->prox;
     }
     
-    //quando chegarmos ao ultimo elemento da head
+    //quando chegarmos ao ultimo elemento da head acrescentamos a root
     current->prox = novo;
     
 }
