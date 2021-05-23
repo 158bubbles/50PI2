@@ -14,9 +14,9 @@ int take (int n, LInt *head){
     }
     
     //se saiu do ciclo pq chegou à altura de apagarmos os nodos para lá do n
-    LInt removidos = current->prox;   //criamos uma LInt para agrupar os nodos a remover, que sao sempre os a seguir do current em que estva ao sair do ciclo
+    LInt removido = current->prox;   //criamos uma LInt para agrupar o nodo a remover, que sao sempre os a seguir do current em que estva ao sair do ciclo
     current->prox = NULL;
-    free(removidos);
+    free(removido);
     
     return i+1;
 }
