@@ -19,4 +19,4 @@ int take (int n, LInt *head){
     free(removido);
     
     return i+1;
-}
+} 
