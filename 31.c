@@ -17,7 +17,7 @@ void acrescenta(int x, LInt *head){
     
 }
 
-void inorder (ABin root, LInt *head) {
+void inorder (ABin root, LInt *head) {  //inorder é: esq root dir
     
     if(root != NULL){
         
