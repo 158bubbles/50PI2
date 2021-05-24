@@ -15,7 +15,7 @@ void removeMaiorA (ABin *root) {
         
     }
     else {
-        removeMaiorA(&((*root)->dir));
+        removeMaiorA(&((*root)->dir));  //vai fazendo recursivamente para a parte da direita pq é onde está o maior
     }
     
 }
